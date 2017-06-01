@@ -2,75 +2,128 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
-        Tom Anderson - Front-End Development
-    </title>
-    <meta property="og:title" content="Tom Anderson" />
-    <meta property="og:description" content="Front-End Development">
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Tom Anderson - Web Developer
+  </title>
+  <meta property="og:title" content="Tom Anderson" />
+  <meta property="og:description" content="Front-End Development">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
 
-    <!--CSS-->
+  <!--CSS-->
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/stylesheet.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/stylesheet.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        
-        <div class="navbar-collapse collapse" id="navbar">
-          <ul class="nav navbar-nav">
-            <li class="active">
-              <a class="page-scroll" href="#home">
+  <div id="home"></div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a class="page-scroll" href="#home">
                 Home
               </a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#services">
-                Services
+          </li>
+          <li>
+            <a class="page-scroll" href="#process">
+                Process
               </a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#portfolio">
-                Portfolio
+          </li>
+          <li>
+            <a class="page-scroll" href="#about">
+                About
               </a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#contact">
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">
                 Contact
               </a>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="http://www.danisharif.com/resume/">
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="">
                 Résumé
                 </a>
-            </li>
-            <li>
-              <a class="fa fa-linkedin-square fa-lg" href="https://www.linkedin.com/in/tom-anderson-3821a783/">
+          </li>
+          <li>
+            <a class="fa fa-linkedin-square fa-lg" href="https://www.linkedin.com/in/tom-anderson-3821a783/" target="_blank">
               </a>
-            </li>
-            
-            
-          </ul>
-        </div>
-        <!--/.nav-collapse -->
+          </li>
+
+
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+
+  <div class="home container">
+    <div class="col-sm-12 text-center">
+      <h1>Tom Anderson</h1>
+      <h3>Making websites for your <span class="typed"></span>.</h3>
+    </div>
+    <div class="skills" id="process">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <img src="img/bar-chart-2.svg" alt="barchart" class="icon-lg">
+            <h2>optimised</h2>
+            <div class="process-text">search engine and stuff</div>
+            </div>
+          <div class="col-sm-4">
+            <img src="img/bar-chart-2.svg" alt="barchart" class="icon-lg">
+            <h2>modern</h2>
+            <div class="process-text">responsive and stuff</div>
+            </div>
+          <div class="col-sm-4">
+            <img src="img/thumbs-up.svg" alt="barchart" class="icon-lg">
+            <h2>social</h2>
+            <div class="process-text">twitter and stuff</div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-right">An idea</div>
+          <div class="col-sm-8">Easy</div>
+          <div class="col-sm-4 text-right">Build</div>
+          <div class="col-sm-8">Efficient</div>
+          <div class="col-sm-4 text-right">Publish</div>
+          <div class="col-sm-8">Hassle-free</div>
+        </div>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">a picture here</div>
+          <div class="col-sm-8 text-center">some description</div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="container">
+        Contact detail
+        Email prolly
+      </div>
+    </div>
 
     <!--JS-->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
