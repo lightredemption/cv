@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
     Typed.new('.typed', {
       strings: ["wedding", "business", "memories", "vacation", "hobby", "cat"],
       typeSpeed: 0,
-      backSpeed: 0,
       backDelay: 2000,
-      loop: true
+      loop: true,
+      showCursor: false
     });
   });

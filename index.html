@@ -24,106 +24,130 @@
 </head>
 
 <body>
+
   <div id="home"></div>
   <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-
-      <div class="navbar-collapse collapse" id="navbar">
-        <ul class="nav navbar-nav">
-          <li class="active">
-            <a class="page-scroll" href="#home">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+            <span class="sr-only">
+              Toggle
+              navigation
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#home">
+            <p>
+              <img src="img/home.svg">
+            </p>
+          </a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a class="page-scroll" href="#home">
                 Home
               </a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#process">
-                Process
+            </li>
+            <li>
+              <a class="page-scroll" href="#services">
+                Services
               </a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#about">
+            </li>
+            <li>
+              <a class="page-scroll" href="#about">
                 About
               </a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#contact">
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">
                 Contact
               </a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="">
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="">
                 Résumé
                 </a>
-          </li>
-          <li>
-            <a class="fa fa-linkedin-square fa-lg" href="https://www.linkedin.com/in/tom-anderson-3821a783/" target="_blank">
+            </li>
+            <li>
+              <a class="fa fa-linkedin-square fa-lg" href="https://www.linkedin.com/in/danisharif">
               </a>
-          </li>
-
-
-        </ul>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
       </div>
-    </div>
-  </nav>
+    </nav>
+  
 
-  <div class="home container">
+  <div class="home">
+    <div class="row">
     <div class="col-sm-12 text-center">
+       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>     
       <h1>Tom Anderson</h1>
       <h3>Making websites for your <span class="typed"></span>.</h3>
     </div>
-    <div class="skills" id="process">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-sm-4">
-            <img src="img/bar-chart-2.svg" alt="barchart" class="icon-lg">
-            <h2>optimised</h2>
-            <div class="process-text">search engine and stuff</div>
-            </div>
-          <div class="col-sm-4">
-            <img src="img/bar-chart-2.svg" alt="barchart" class="icon-lg">
-            <h2>modern</h2>
-            <div class="process-text">responsive and stuff</div>
-            </div>
-          <div class="col-sm-4">
-            <img src="img/thumbs-up.svg" alt="barchart" class="icon-lg">
-            <h2>social</h2>
-            <div class="process-text">twitter and stuff</div>
-            </div>
+    </div>
+  </div>
+  <div class="services" id="services">
+    <div class="container">
+      <div class="row">
+        <h2>The process</h2>
+        <div class="col-sm-4">
+          
         </div>
-        <div class="row">
-          <div class="col-sm-4 text-right">An idea</div>
-          <div class="col-sm-8">Easy</div>
-          <div class="col-sm-4 text-right">Build</div>
-          <div class="col-sm-8">Efficient</div>
-          <div class="col-sm-4 text-right">Publish</div>
-          <div class="col-sm-8">Hassle-free</div>
+        <div class="col-sm-4">
+          
+        </div>
+        <div class="col-sm-4">
+          
         </div>
       </div>
+      <h2>What you'll get</h2>
+      <div class="row sv-block">
+        
+        <div class="col-sm-4"> <img src="img/modern_pc.jpg" alt="modern"></div>
+        <div class="col-sm-8">Something about modern</div>
+      </div>
+      <div class="row sv-block">
+        <div class="col-sm-4"><img src="img/secure_pc.jpg" alt="modern"></div>
+        <div class="col-sm-8">something about security</div>
+      </div>
+      <div class="row sv-block">  
+        <div class="col-sm-4"><img src="img/social_pc.jpg" alt="modern"></div>
+        <div class="col-sm-8">something about social</div>
+      </div>
+      
     </div>
-    <div class="about" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">a picture here</div>
-          <div class="col-sm-8 text-center">some description</div>
-        </div>
+  </div>
+  <div class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">a picture here</div>
+        <div class="col-sm-8 text-center">some description</div>
       </div>
     </div>
-    <div class="contact" id="contact">
-      <div class="container">
-        Contact detail
-        Email prolly
-      </div>
+  </div>
+  <div class="contact" id="contact">
+    <div class="container">
+      Contact detail Email prolly
     </div>
+  </div>
 
-    <!--JS-->
+  <!--JS-->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/typed.min.js"></script>
-    <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

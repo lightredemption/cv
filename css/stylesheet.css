@@ -1,5 +1,28 @@
 /*Stylesheet*/
 
+body {
+    color: #555;
+}
+
+.home {
+    background-image: url("../img/rough-horn-2146181_1920.jpg");
+    min-height: 800px;
+    background-size: cover;
+}
+
+#home {
+    font-size: 0;
+}
+
+.sv-block {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
 /*For Typed-JS*/
 
 .typed-cursor{
