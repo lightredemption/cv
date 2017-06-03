@@ -2,6 +2,10 @@
 
 body {
     color: #555;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
 }
 
 .home {
@@ -14,13 +18,34 @@ body {
     font-size: 0;
 }
 
+.img-container {
+    text-align: center;
+}
+
+.process-block {
+    min-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .sv-block {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.textbox {
+    padding: 40px;
+}
+
+.img-hor {
+    max-width: 350px;
 }
 
 h2 {
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    padding: 50px;
 }
 
 /*For Typed-JS*/
