@@ -1,74 +1,53 @@
-/*Stylesheet*/
-
-body {
-    color: #555;
+h1,h3 {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    -webkit-font-smoothing: antialiased;
 }
 
-.home {
-    background-image: url("../img/rough-horn-2146181_1920.jpg");
-    min-height: 800px;
-    background-size: cover;
+h2,.item {
+    font-family: 'Josefin Sans', sans-serif;   
 }
 
-#home {
-    font-size: 0;
-}
-
-.img-container {
+h3 {
+    color: #337ab7;
     text-align: center;
 }
 
-.process-block {
-    min-height: 500px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
 
-.sv-block {
+.fa {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 100px;
+}
+
+.custom-container {
     margin-top: 50px;
+}
+
+.profile-container {
+    text-align: center;
+}
+
+.item {
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px lightgray;
+    padding: 30px;
     margin-bottom: 50px;
 }
 
-.textbox {
-    padding: 40px;
-}
-
-.img-hor {
-    max-width: 350px;
-}
-
-h2 {
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
+.tech {
     text-align: center;
-    padding: 50px;
+    padding-top: 25px;
 }
 
-/*For Typed-JS*/
-
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+.di {
+    font-size: 60px;
+    padding: 25px;
 }
 
+.img-fluid {
+    max-width: 100%;
+}
