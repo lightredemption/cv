@@ -1,11 +1,9 @@
-# cv
+# Credits
 
-<!--Credits-->
+BG: https://www.toptal.com/designers/subtlepatterns/
 
-Icons from https://feather.netlify.com/
+Icons: http://fontawesome.io/
 
-<!--Background Images-->
+Devicons: https://konpa.github.io/devicon/
 
-Home BG from https://pixabay.com/en/rough-horn-alpine-2146181/
-
-Modern BG from https://www.pexels.com/photo/business-clean-computer-connection-389819/
+Logos are trademarked by their respective owners
