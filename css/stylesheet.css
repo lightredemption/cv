@@ -1,3 +1,8 @@
+body {
+    padding: 0 5vw;
+    background-image: url("../img/cork-wallet.png");
+}
+
 h1,h3 {
     font-family: 'Raleway', sans-serif;
 }
@@ -15,6 +20,10 @@ a, a:visited, a:hover, a:active {
   color: inherit;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 .fa {
     padding-top: 20px;
     padding-left: 15px;
@@ -24,13 +33,20 @@ a, a:visited, a:hover, a:active {
 
 .custom-container {
     margin-top: 50px;
+    
 }
 
 .profile-container {
-    text-align: center;
+    position: fixed;
+}
+
+.content-container {
+    /*overflow: scroll;
+    height: 100%;*/
 }
 
 .item {
+    background-color: white;
     font-size: 16px;
     border-radius: 5px;
     box-shadow: 0 0 2px 2px lightgray;
@@ -39,7 +55,6 @@ a, a:visited, a:hover, a:active {
 }
 
 .tech {
-    text-align: center;
     padding-top: 25px;
 }
 
@@ -48,6 +63,13 @@ a, a:visited, a:hover, a:active {
     padding: 25px;
 }
 
-.img-fluid {
-    max-width: 100%;
+.logo {
+    width: 300px;
+    margin-left: -30px;
+}
+
+.button {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 18px;
 }
