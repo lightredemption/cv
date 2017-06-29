@@ -22,14 +22,3 @@ $(document).ready(function () {
     } // End if
   });
 });
-
-
-document.addEventListener('DOMContentLoaded', function () {
-    Typed.new('.typed', {
-      strings: ["wedding", "business", "memories", "vacation", "hobby", "cat"],
-      typeSpeed: 0,
-      backDelay: 2000,
-      loop: true,
-      showCursor: false
-    });
-  });
